@@ -16,6 +16,8 @@
   display: flex;
   justify-content: center;
   background-color: black;
+  position: sticky;
+  top: 0;
 }
 .nav li {
     padding: 1rem;
