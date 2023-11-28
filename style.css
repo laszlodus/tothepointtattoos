@@ -1,0 +1,605 @@
+:root {
+    --grey:  rgb(228, 228, 224);
+}
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:Arial, Helvetica, 'sans-s';
+   font-size: xx-large;
+}
+
+.custom-text-danger {color: red;}
+
+.navbar-brand  {
+   color: red;
+   font-size: xx-large;
+   font-family: 'Yellowtail', 'cursive';
+}
+.navbar-brand:hover {
+   color: red;
+}
+.nav-item a {
+   font-size: xx-large;
+   font-family: 'Yellowtail', 'cursive';
+}
+
+.navbar-toggler-icon {
+   background-color: white;
+}
+.custom-text-danger:hover {
+color: white;
+}
+.dropdown-item {
+   color: red;
+}
+.dropdown-item:hover {
+   background-color: inherit; /* Resets the background color to the original*/
+   color: white; 
+} 
+
+/*Section*/
+
+.menucontainer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 8rem;
+   background-image: url(pictures/machine.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+.menucontainer li {
+    color: white;
+    font-weight: bold;
+    list-style-type: none;  
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(0, 0, 0, 0.4);
+    text-align: center;
+}
+.menucontainer li:hover {
+    color: red;
+}
+#headp {
+ transform: rotate(-35deg);
+ color: red;
+ font-size: 45px;
+}
+
+
+/*about*/
+
+.profilkep {
+   display: flex;
+   padding: 2rem;
+   background-image: url();
+   background-repeat: no-repeat;
+   background-size: cover;
+   justify-content: space-between;
+}
+
+figure {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+figcaption {
+   display: flex;
+   justify-content:center;
+   color: red;
+   font-family: 'Yellowtail', 'cursive';
+}
+.profp {
+   width: 20rem;
+   border: 1px solid black;
+   border-radius: 2rem;
+   box-shadow: 0.2rem 0.2rem 0.3rem black;
+   
+}
+
+.div1 {
+   display: flex;
+   width: 40rem;
+   flex-direction: column;
+   border: 1px solid black;
+   border-radius: 3rem;
+   padding: 1rem;
+   box-shadow: 0.1rem 0.2rem 0.4rem black;
+   color: white;
+   background-color: black;
+   /* opacity: 0.7;
+   filter: brightness(140%); */
+   margin: 2rem;
+}
+/*Gallery*/
+.container1 {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+
+.container1 img{
+width: 10rem;
+height: 15rem;
+margin: 2rem;
+box-shadow: 1rem 1rem 1rem black;
+}
+/*tattoo style*/
+
+#bgbg {
+   background: url(pictures/blackandgray.jpg);
+   background-position: center;
+   background-size: cover;
+}
+#cwbg {
+   background: url(pictures/colourwatercolour.jpg);
+   background-position: center;
+   background-size: cover;
+}
+#cubg {
+   background: url(pictures/coverupp.jpg);
+   background-position: center;
+   background-size: cover;
+}
+#eot {
+   background: url(pictures/eyeoftiger.jpg);
+   background-position: center;
+   background-size: cover;
+}
+#gma {
+   background: url(pictures/dotartmandala.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+#memo {
+   background: url(pictures/memoriald.jpg);
+   background-position: center;
+   background-size: cover;
+}
+#potrib {
+   background: url(pictures/PolynesianTribal.jpg);
+   background-position: center;
+   background-size: cover;
+}
+#rea {
+   background: url(pictures/reealistic.jpg);
+   background-position: center;
+   background-size: cover;
+}
+#slee {
+   background: url(pictures/sleevee.jpg);
+   background-position: center;
+   background-size: cover;
+}
+#tra {
+   background: url(pictures/tra.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.colorc:hover {
+color: red;
+}
+.style1 {
+   background-image: url(pictures/bggtattos.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.style1 ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.style1 li {
+   list-style: none;
+   box-shadow: 1rem 1rem 1rem black;
+   padding: 3rem;
+   margin: 3rem;
+   width: 30rem;
+   text-align: center;
+}
+.style1 a {
+   text-decoration: none;
+   color: white;
+   font-size: 40px
+}
+
+/*Booking*/
+.booking0 {
+   background-image: url(pictures/whitebrick1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   
+}
+.booking0 p {
+   background-image: url(pictures/brick.jpg);
+   color: black;
+}  
+
+h2 {
+display: flex;
+justify-content: center;
+padding: 0.5rem;
+background-color: black;
+color: red;
+font-family: 'Yellowtail', 'cursive';
+box-shadow: 0 0.1rem 0.1rem red;
+text-shadow: 0.1rem 0.1rem 0.2rem grey;
+font-size: xx-large;
+margin-bottom: 0.1rem;
+}
+
+.booking2 {
+display: flex;
+padding: 1rem;
+justify-content: space-between;
+align-items: center;
+margin: 2rem;
+}
+.booking2 p {
+   width: 25rem;
+   border: 0.1rem solid black;
+   padding: 2rem;
+   border-radius: 40rem;
+   text-align: center;
+   box-shadow: 0.1rem 0.1rem 0.3rem black;
+}
+.booking2 img {
+   width: 20rem;
+   box-shadow: 0 3px 10px black;
+}
+#pandbutton {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#pandbutton button {
+margin-top: 1rem;
+}
+.required-field::before {
+   content: '*';
+   color: red;
+   margin-right: 0.2rem;
+}
+.form form {
+   display: none;
+}
+.hidden form {
+   display: flex;
+   flex-direction: column;
+}
+
+.form button {
+   width: 25%;
+}
+
+.picture {
+   display: flex;
+}
+.picture2 {
+   display: none;
+}
+
+.showe {
+   cursor: pointer;
+   padding: 0.5rem;
+   border-radius: 10rem;
+   background-color: white;
+   color: black;
+   box-shadow: 0 0.1rem 0.1rem black;
+   margin-bottom: 2rem;
+}
+.showe1 {
+   display: none;
+}
+.showe:hover {
+   color: white;
+   background-color: black;
+}
+
+.forms {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: medium;
+   padding: 0.5rem;
+   width: 25rem;
+}
+
+.button1 {
+   margin: 1rem;
+   padding: 0.2rem;
+   box-shadow: 0 0.1rem 0.2rem black;
+}
+.button1:hover{
+   background-color: black;
+   color: white;
+}
+
+/*Contact*/
+.maps {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 2rem;
+   background-color: var(--grey);
+}
+.maps iframe {
+   width: 25rem;
+   
+}
+.cont {
+   display: flex;
+   align-items: center;
+}
+.cont img {
+    margin: 1rem;
+}
+label {
+   max-width: 20rem;
+   display: inline-block;
+}
+.info {
+   background-color: var(--grey);
+   display: flex;
+   flex-direction: column;
+   padding: 2rem;
+}
+.info p {
+   font-size: small;
+   width: 25rem;
+}
+/*pictures pages*/
+
+.image {
+   box-shadow: 1rem 1rem 1rem black;
+}
+.images {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 2rem;
+   margin: 2rem;
+   padding: 2rem;
+   background: url(pictures/red-brick-bg.jpg);
+}
+.lightbox {
+   display: none;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.7);
+   z-index: 1;
+   margin-top: 1rem;
+}
+
+.lightbox-content {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   max-width: 80%;
+   max-height: 80%;
+   
+}
+
+.close {
+   position: absolute;
+   top: 4rem;
+   right: 2rem;
+   font-size: 30px;
+   cursor: pointer;
+   color: white;
+   
+}
+.image img {
+   max-width: 100%;
+   box-shadow: 0.8rem 0.8rem 1rem var(--shadow);
+   border: 0.2rem solid white;
+   cursor: pointer;
+}
+.lightbox-content img {
+   width: 100%;
+   height: auto;
+}
+.small-image {
+   width: auto;
+   height: 10rem;
+}
+#butend {
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+}
+
+#butend a {
+   text-decoration: none;
+   color: black;
+   border: solid black;
+   margin: 1rem;
+   padding: 0.2rem;
+   width: 10rem;
+   background-color: white;
+   text-align: center;
+   border-radius: 1rem 1rem;
+}
+#butend a:hover {
+   color: white;
+   background-color: black;
+}
+
+#gm {
+   background: url(pictures/bggtattos.jpg);
+}
+
+
+@media only screen and (max-width: 600px) {
+   *{
+       font-size: x-small;
+   }
+   .maps {
+       flex-direction: column;
+   }
+   .booking2 {
+       flex-direction: column;
+       
+   }
+   .booking2 p {
+       border-radius: 10rem;
+   }
+   .profilkep {
+       flex-direction: column;
+       align-items: center;    
+   }
+   .cont a, p, address {
+       font-size: large;
+   }
+   #headp {
+       font-size: xx-large;
+   }
+   
+   nav a img {
+       width: 90%;
+   }
+   .div1 {
+       width: 90%;
+   }
+   .showe {
+       margin: 1rem;
+   }
+
+   .form label {
+       font-size: medium;
+   }
+   .form a {
+       font-size: medium;
+   }
+   .form button {
+       font-size: medium;
+   }
+   .menucontainer {
+       flex-direction: column;
+       justify-content: center;
+    }
+   .menucontainer li {
+    font-size: x-large;
+   }
+   
+   .showe {
+       padding: 1rem;
+       font-size: medium;
+   }
+   .png {
+       max-width: 48px;
+   }
+   
+}
+@media only screen and (min-width: 600px) {
+   * {
+      font-size: medium;
+      
+   }
+   .nav-item a {
+       font-size: xx-large;
+       font-family: 'Yellowtail', 'cursive';
+   }
+  
+   .profilkep {
+       flex-direction: column;
+       align-items: center;    
+   }
+   
+   .maps {
+       flex-direction: column;
+   }
+   .booking2 {
+       flex-direction: column;
+   }
+   .menucontainer {
+    flex-direction: column;
+    justify-content: center;
+ }
+   .menucontainer li { 
+   font-size: x-large;
+}
+#headp {
+    font-size: xx-large;
+}
+  
+}
+@media only screen and (min-width: 768px) {
+   * {
+       font-size: large;
+   }
+   .maps {
+       flex-direction: column;
+   }
+   .booking2 {
+       flex-direction: column;
+   }
+   .menucontainer {
+    flex-direction: column;
+    justify-content: center;
+   }
+    .menucontainer li {
+    font-size: x-large;
+   }
+   #headp {
+    font-size: xx-large;
+   }
+   .profilkep {
+       flex-direction: row;
+   }
+   
+  
+}
+@media only screen and (min-width: 992px) {
+ * {
+   font-size: large;
+ }
+.maps {
+   flex-direction: row;
+}
+.booking2 {
+   flex-direction: row;
+}
+.profilkep {
+   flex-direction: row;
+ }
+.form {
+   background-color: white;
+   color: black;
+}
+.booking0 {
+   background-image: url(pictures/memo.jpg);
+   background-size: contain;
+}
+.menucontainer {
+    flex-direction: row;
+    justify-content: left;
+   }
+    .menucontainer li {
+    font-size: x-large;
+   }
+   #headp {
+    font-size: 36px;
+   }
+
+}
+@media only screen and (min-width: 1200px) {
+   * {
+       font-size: x-large;
+   }
+   #headp {
+    font-size: 45px;
+   }
+}
