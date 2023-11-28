@@ -312,6 +312,7 @@ margin-top: 1rem;
    margin: 1rem;
    padding: 0.2rem;
    box-shadow: 0 0.1rem 0.2rem black;
+   border-radius: 0;
 }
 .button1:hover{
    background-color: black;
