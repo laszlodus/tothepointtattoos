@@ -207,6 +207,7 @@ color: red;
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
+   height: 100vh;
    
 }
 .booking0 p {
@@ -241,6 +242,7 @@ margin: 2rem;
    border-radius: 40rem;
    text-align: center;
    box-shadow: 0.1rem 0.1rem 0.3rem black;
+   margin: 2rem;
 }
 .booking2 img {
    width: 20rem;
@@ -265,7 +267,7 @@ margin-top: 1rem;
 }
 .hidden form {
    display: flex;
-   flex-direction: column;
+   flex-direction: column;  
 }
 
 .form button {
@@ -274,6 +276,7 @@ margin-top: 1rem;
 
 .picture {
    display: flex;
+   margin: 2rem;
 }
 .picture2 {
    display: none;
