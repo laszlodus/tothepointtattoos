@@ -2,7 +2,6 @@
     --grey:  rgb(228, 228, 224);
 }
 
-
 * {
    margin: 0;
    padding: 0;
@@ -10,6 +9,7 @@
    font-family:Arial, Helvetica, 'sans-s';
    font-size: xx-large;
 }
+
 
 /*nav*/
 .nav {
@@ -42,13 +42,15 @@
 
 .menucontainer {
     display: flex;
-    justify-content: left;
-    align-items: center;
-    gap: 8rem;
-   background-image: url(pictures/machine.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   height: 100vh;
+    background-image: url(pictures/machine.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Hogy a háttérben legyen */
 }
 .menucontainer  a {
     color: whitesmoke;
@@ -56,12 +58,10 @@
     font-family: 'Yellowtail', 'cursive';   
     font-size: 35px;
     text-decoration: none; 
+    background-color: rgb(0, 0, 0, 0.6);
 }
 .menucontainer li {
     list-style-type: none;  
-    background-color: rgb(0, 0, 0, 0.6);
-    margin: 2rem;
-    padding: 1rem;
     text-align: center;
 }
 
@@ -206,11 +206,9 @@ color: red;
 /*Booking*/
 .booking0 {
    background-image: url(pictures/whitebrick1.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
+   background-size: ccover;
    background-position: center;
-   height: 100vh;
-   
+   background-repeat: no-repeat;
 }
 .booking0 p {
    background-image: url(pictures/brick.jpg);
@@ -236,6 +234,7 @@ padding: 1rem;
 justify-content: space-between;
 align-items: center;
 margin: 2rem;
+margin-bottom: 0;
 }
 .booking2 p {
    width: 25rem;
@@ -482,10 +481,11 @@ label {
        font-size: medium;
    }
    .menucontainer {
-       flex-direction: column;
-       justify-content: center;
-    }
-   .menucontainer a {
+    flex-direction: column;
+    justify-content: center;
+   }
+  
+    .menucontainer a {
     font-size: x-large;
    }
    
@@ -584,8 +584,8 @@ label {
    background-size: contain;
 }
 .menucontainer {
-    flex-direction: row;
-    justify-content: left;
+    flex-direction: column;
+    justify-content: center;
    }
     .menucontainer a {
     font-size: xx-large;
@@ -606,3 +606,14 @@ label {
     font-size: 72px;
    }
 }
+
+
+
+.background {
+    background: no-repeat center center;
+    background-size: cover;
+    margin: 0px;
+    padding-top: 30px; /* vagy szükség szerinti érték */
+    min-height: 100vh;
+}
+
