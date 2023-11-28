@@ -11,36 +11,32 @@
    font-size: xx-large;
 }
 
-.custom-text-danger {color: red;}
+/*nav*/
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.nav li {
+    padding: 1rem;
+    text-align: center;
+}
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+}
+.nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Yellowtail', 'cursive';
+    font-size: xx-large;
+}
+.nav a:hover {
+    color: red;
+}
 
-.navbar-brand  {
-   color: red;
-   font-size: xx-large;
-   font-family: 'Yellowtail', 'cursive';
-}
-.navbar-brand:hover {
-   color: red;
-}
-.nav-item a {
-   font-size: xx-large;
-   font-family: 'Yellowtail', 'cursive';
-}
-
-.navbar-toggler-icon {
-   background-color: white;
-}
-.custom-text-danger:hover {
-color: white;
-}
-.dropdown-item {
-   color: red;
-}
-.dropdown-item:hover {
-   background-color: inherit; /* Resets the background color to the original*/
-   color: white; 
-} 
-
-/*Section*/
+/*index menu*/
 
 .menucontainer {
     display: flex;
@@ -122,20 +118,7 @@ figcaption {
    filter: brightness(140%); */
    margin: 2rem;
 }
-/*Gallery*/
-.container1 {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-}
 
-
-.container1 img{
-width: 10rem;
-height: 15rem;
-margin: 2rem;
-box-shadow: 1rem 1rem 1rem black;
-}
 /*tattoo style*/
 
 #bgbg {
@@ -231,7 +214,7 @@ color: red;
    color: black;
 }  
 
-h2 {
+h1 {
 display: flex;
 justify-content: center;
 padding: 0.5rem;
@@ -473,10 +456,12 @@ label {
    #headp {
        font-size: xx-large;
    }
-   
-   nav a img {
-       width: 90%;
+   .nav li {
+    padding: 0.5rem;
    }
+   .nav a {
+        font-size: x-large;
+    }
    .div1 {
        width: 90%;
    }
