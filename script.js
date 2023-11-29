@@ -16,11 +16,11 @@ button.addEventListener("click", () => {
     document.getElementById('gdpr').checked = false;
 });
 
-window.addEventListener('focus', function() {
-    window.location.reload();
-});
 document.getElementById('send').addEventListener('click', function() {
-setTimeout(function() {
-    window.location.reload();
-}, 1000); // 1000 ms = 1 másodperc
+    setTimeout(function() {
+        var form = document.getElementById('myForm');
+        if (form) {
+            form.reset(); // Törli az űrlap mezőit
+        }
+    }, 2001); // 1000 ms = 5 másodperc
 });
