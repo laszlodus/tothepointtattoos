@@ -437,10 +437,6 @@ label {
    text-align: center;
    border-radius: 1rem 1rem;
 }
-#butend a:hover {
-   color: white;
-   background-color: black;
-}
 
 #gm {
    background: url(pictures/bggtattos.jpg);
