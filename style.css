@@ -42,8 +42,8 @@
 
 .menucontainer {
     display: flex;
-    align-items: center;
     background-image: url(pictures/machine.jpg);
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -51,7 +51,7 @@
     height: 100%;
     background-size: cover;
     background-position: center;
-    z-index: -1; /* Hogy a háttérben legyen */
+    z-index: -1; 
 }
 .menucontainer  a {
     color: whitesmoke;
@@ -491,7 +491,10 @@ label {
     justify-content: center;
    }
    .menucontainer ul {
-      margin: 0.1rem;
+      margin: 0.3rem;
+   }
+   .menucontainer li {
+      margin: 0.5rem;
    }
    .menucontainer a {
     font-size: x-large;
@@ -535,6 +538,9 @@ label {
   .menucontainer ul {
    margin:  0.2rem;
   }
+  .menucontainer li {
+   margin: 0.5rem;
+}
    .headp {
     font-size: x-large;
 }
