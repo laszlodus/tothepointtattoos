@@ -465,7 +465,7 @@ label {
        font-size: large;
    }
    .headp {
-       font-size: xxx-large;
+       font-size: xx-large;
    }
    .nav a {
     padding: 0.6rem;
@@ -490,12 +490,11 @@ label {
     flex-direction: column;
     justify-content: center;
    }
-    .menucontainer li {
-        padding: 1rem;
-    }
+  
     .menucontainer a {
-    font-size: xx-large;
-    }
+    font-size: x-large;
+    margin: 0.5rem;
+   }
    
    .showe {
        padding: 1rem;
@@ -514,7 +513,7 @@ label {
       
    }
    .nav a {
-   padding: 1rem;
+    padding: 1rem;
    }
    .profilkep {
        flex-direction: column;
@@ -531,11 +530,8 @@ label {
     flex-direction: column;
     justify-content: center;
  }
- .menucontainer li {
-    padding: 0.2rem;
-}
    .menucontainer a { 
-   font-size: xx-large;
+   font-size: x-large;
 }
    .headp {
     font-size: xx-large;
@@ -560,10 +556,10 @@ label {
     font-size: xx-large;
    }
    .menucontainer li {
-    padding: 1rem;
+    margin: 0.5rem;
    }
    .headp {
-    font-size: xxx-large;
+    font-size: 45px;
    }
    .profilkep {
        flex-direction: row;
@@ -597,10 +593,10 @@ label {
     justify-content: center;
    }
     .menucontainer a {
-    font-size: xxx-large;
+    font-size: xx-large;
    }
    .menucontainer li {
-    padding: 1rem;
+    margin: 1rem;
    }
    .headp {
     font-size: 50px;
