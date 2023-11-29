@@ -490,6 +490,9 @@ label {
     flex-direction: column;
     justify-content: center;
    }
+   .menucontainer ul {
+      margin: 7rem;
+   }
    .menucontainer li {
       padding: 0.5rem;
    }
