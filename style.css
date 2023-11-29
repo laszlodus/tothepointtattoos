@@ -57,12 +57,12 @@
     color: whitesmoke;
     text-align: center;
     font-family: 'Yellowtail', 'cursive';   
-    font-size: xx-large;
+    font-size: x-large;
     text-decoration: none; 
     background-color: rgb(0, 0, 0, 0.6);
 }
 .menucontainer ul {
-    padding: 2rem;
+    padding: 0.2rem;
 }
 .menucontainer li {
     list-style-type: none;  
@@ -465,7 +465,7 @@ label {
        font-size: large;
    }
    .headp {
-       font-size: xx-large;
+       font-size: x-large;
    }
    .nav a {
     padding: 0.6rem;
@@ -491,13 +491,10 @@ label {
     justify-content: center;
    }
    .menucontainer ul {
-      margin: 7rem;
+      margin: 0.1rem;
    }
-   .menucontainer li {
-      padding: 0.5rem;
-   }
-    .menucontainer a {
-    font-size: xx-large;
+   .menucontainer a {
+    font-size: x-large;
    }
    
    .showe {
@@ -533,13 +530,13 @@ label {
     justify-content: center;
  }
    .menucontainer a { 
-   font-size: xx-large;
+   font-size: x-large;
 }
   .menucontainer ul {
-   padding: 0.2rem;
+   margin:  0.2rem;
   }
    .headp {
-    font-size: xx-large;
+    font-size: x-large;
 }
   
 }
@@ -560,7 +557,12 @@ label {
     .menucontainer a {
     font-size: xx-large;
    }
-   
+   .menucontainer ul{
+      margin: 2rem;
+   }
+   .menucontainer li {
+      padding: 0.3rem;
+   }
    .headp {
     font-size: xx-large;
    }
