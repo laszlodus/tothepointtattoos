@@ -373,7 +373,6 @@ label {
    gap: 2rem;
    margin: 2rem;
    padding: 2rem;
-   background: url(pictures/red-brick-bg.jpg);
 }
 .lightbox {
    display: none;
@@ -439,7 +438,7 @@ label {
 }
 
 #gm {
-   background: url(pictures/bggtattos.jpg);
+   background: url(pictures/red-brick-bg.jpg);
 }
 
 
