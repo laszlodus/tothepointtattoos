@@ -597,7 +597,12 @@ label {
     .menucontainer a {
     font-size: xx-large;
    }
-  
+   .menucontainer ul {
+      margin: 1rem;
+   }
+   .menucontainer li {
+      margin: 1rem;
+   }
    .headp {
     font-size: xxx-large;
    }
@@ -608,7 +613,13 @@ label {
        font-size: x-large;
    }
    .headp {
-    font-size: xx-large;
+    font-size: xxx-large;
+   }
+   .menucontainer ul {
+      margin: 1rem;
+   }
+   .menucontainer li {
+      padding: 0.5rem;
    }
 }
 
