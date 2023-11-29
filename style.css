@@ -465,7 +465,7 @@ label {
        font-size: large;
    }
    .headp {
-       font-size: xx-large;
+       font-size: xxx-large;
    }
    .nav a {
     padding: 0.6rem;
@@ -490,10 +490,12 @@ label {
     flex-direction: column;
     justify-content: center;
    }
-  
+    .menucontainer li {
+        padding: 1rem;
+    }
     .menucontainer a {
-    font-size: x-large;
-   }
+    font-size: xx-large;
+    }
    
    .showe {
        padding: 1rem;
