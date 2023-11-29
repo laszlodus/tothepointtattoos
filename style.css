@@ -490,10 +490,11 @@ label {
     flex-direction: column;
     justify-content: center;
    }
-  
+   .menucontainer li {
+      padding: 0.5rem;
+   }
     .menucontainer a {
-    font-size: x-large;
-    margin: 0.5rem;
+    font-size: xx-large;
    }
    
    .showe {
