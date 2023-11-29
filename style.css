@@ -532,10 +532,13 @@ label {
     justify-content: center;
  }
    .menucontainer a { 
-   font-size: x-large;
+   font-size: xx-large;
 }
+  .menucontainer ul {
+   padding: 0.2rem;
+  }
    .headp {
-    font-size: x-large;
+    font-size: xx-large;
 }
   
 }
