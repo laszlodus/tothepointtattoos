@@ -191,17 +191,6 @@ color: red;
    font-size: xx-large;
 }
 
-/*Booking*/
-.booking0 {
-   background-image: url(pictures/whitebrick1.jpg);
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-}
-.booking0 p {
-   background-image: url(pictures/brick.jpg);
-   color: black;
-}  
 
 h1, h2 {
 display: flex;
@@ -214,97 +203,42 @@ text-shadow: 0.1rem 0.1rem 0.2rem grey;
 font-size: x-large;
 }
 
-.booking2 {
-display: flex;
-padding: 1rem;
-justify-content: space-between;
-align-items: center;
-margin: 2rem;
-margin-bottom: 0;
+/*booking*/
+
+#bookbg {
+   background-image: url(pictures/brick.jpg);
+   background-size: cover;
+   background-repeat: repeat;
+   
 }
-.booking2 p {
-   width: 25rem;
-   border: 0.1rem solid black;
-   padding: 2rem;
-   border-radius: 40rem;
-   text-align: center;
-   box-shadow: 0.1rem 0.1rem 0.3rem black;
-   margin: 2rem;
-}
-.booking2 img {
-   width: 20rem;
-   box-shadow: 0 3px 10px black;
-}
-#pandbutton {
+#bookcontainer {
    display: flex;
    flex-direction: column;
    align-items: center;
 }
-.lastbutton {
-    display: flex;
+#bookcontainer p {
+   padding: 1rem;
+   margin: 1rem;
+   border: 1px solid black;
+   border-radius: 3rem;
+   max-width: 30rem;
 }
-.lastbutton button {
-    text-align: center;
-    margin: 1rem;
-    padding: 0.2rem;
-    box-shadow: 0 0.1rem 0.2rem black;
-    appearance: none;
-    background-color: whitesmoke;
-    color: black;
+#bookcontainer button {
+  margin: 0.5rem;
+  padding: 0.2rem;
 }
-.lastbutton button:hover {
-    background-color: black;
-    color: white;
-}
-#pandbutton button {
-margin-top: 1rem;
-}
-.required-field::before {
-   content: '*';
-   color: red;
-   margin-right: 0.2rem;
-}
-.form form {
-   display: none;
-}
-.hidden form {
-   display: flex;
-   flex-direction: column;  
-}
-
-.form button {
-   width: 25%;
-}
-
-.picture {
-   display: flex;
-   margin: 2rem;
-}
-.picture2 {
-   display: none;
-}
-
-.showe {
-   cursor: pointer;
-   padding: 0.5rem;
-   border-radius: 10rem;
-   background-color: white;
-   color: black;
-   box-shadow: 0 0.1rem 0.1rem black;
-   margin-bottom: 2rem;
-}
-.showe1 {
-   display: none;
-}
-.showe:hover {
-   color: white;
+form button:hover {
    background-color: black;
+   color: white;
 }
-
-.forms {
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: medium;
-   padding: 0.5rem;
+#bookcontainer img {
+   margin-top: 1rem;
+   width: 20rem;
+}
+form {
+   display: flex;
+   flex-direction: column;
+   max-width: 30rem;
 }
 
 
@@ -436,13 +370,6 @@ label {
    .maps {
        flex-direction: column;
    }
-   .booking2 {
-       flex-direction: column;
-       
-   }
-   .booking2 p {
-       border-radius: 10rem;
-   }
    .profilkep {
        flex-direction: column;
        align-items: center;    
@@ -459,24 +386,6 @@ label {
    .div1 {
        width: 90%;
    }
-
-   .form label {
-       font-size: medium;
-   }
-   .form a {
-       font-size: medium;
-   }
-   .form button {
-       font-size: medium;
-   }
-   .showe {
-       padding: 1rem;
-       font-size: medium;
-       margin: 1rem;
-   }
-  
-   
-   
 }
 @media only screen and (min-width: 600px) {
    * {
@@ -492,9 +401,6 @@ label {
    }
    
    .maps {
-       flex-direction: column;
-   }
-   .booking2 {
        flex-direction: column;
    }
    #indexhead h1, h2 {
@@ -515,10 +421,6 @@ label {
    .maps {
        flex-direction: column;
    }
-   .booking2 {
-       flex-direction: column;
-   }
-   
    .profilkep {
        flex-direction: row;
    }
@@ -546,9 +448,6 @@ label {
 .maps {
    flex-direction: row;
 }
-.booking2 {
-   flex-direction: row;
-}
 .profilkep {
    flex-direction: row;
  }
@@ -556,11 +455,6 @@ label {
    background-color: white;
    color: black;
 }
-.booking0 {
-   background-image: url(pictures/memo.jpg);
-   background-size: contain;
-}
-
 
 }
 @media only screen and (min-width: 1200px) {
