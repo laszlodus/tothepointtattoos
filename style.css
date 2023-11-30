@@ -523,6 +523,12 @@ label {
  * {
    font-size: large;
  }
+ #indexhead h1, h2{
+   font-size: xx-large;
+ }
+ #indexcontainer a {
+   font-size: xx-large;
+ }
 .maps {
    flex-direction: row;
 }
@@ -548,6 +554,11 @@ label {
        font-size: x-large;
    }
   
-   
+   #indexhead h1, h2 {
+      font-size: xxx-large;
+    }
+    #indexcontainer a {
+      font-size: xxx-large;
+    }
 }
 
