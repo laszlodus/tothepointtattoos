@@ -498,10 +498,10 @@ label {
        flex-direction: column;
    }
    #indexhead h1, h2 {
-      font-size: xx-large;
+      font-size: x-large;
     }
     #indexcontainer a {
-      font-size: xx-large;
+      font-size: x-large;
     }
     #indexcontainer li {
       padding: 0.2rem;
