@@ -26,7 +26,7 @@
         <button id="showe" class="showe">Click here</button>
     </div>
     <div id="form" class="form">
-      <form  action="https://formspree.io/f/xgeqynbe" method="POST">
+      <form id="myForm" action="https://formspree.io/f/xgeqynbe" method="POST">
       <label for="firstname" class="required-field">First Name</label>
       <input type="text" name="firstname" class="forms" id="firstname" required>
       <label for="lastname" class="required-field">Last Name</label>
@@ -46,7 +46,7 @@
       <label for="gdpr" class="required-field">I agree to the processing of my provided data for the purpose of contact. <a target="_blank" href="privacy.html">Privacy Policy</a></label>
       </div>
       <div class="lastbutton">
-      <button type="submit">Send</button>
+      <button onclick="submitForm()" type="submit">Send</button>
       <button type="reset">Reset</button>
       </div>
       </form>
