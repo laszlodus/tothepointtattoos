@@ -235,13 +235,21 @@ form button:hover {
    margin-top: 1rem;
    width: 20rem;
 }
-form {
+#bookcontainer form {
    display: flex;
    flex-direction: column;
-   max-width: 30rem;
+   width: 25rem;
 }
-
-
+#bookcontainer input {
+   height: 2rem;
+   font-size: large;
+}
+#bookcontainer label, a, button, textarea {
+   font-size: large;
+}
+span {
+   color: red;
+}
 
 /*Contact*/
 .maps {
