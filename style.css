@@ -342,23 +342,6 @@ label {
    width: auto;
    height: 10rem;
 }
-#butend {
-   display: flex;
-   justify-content: center;
-   justify-content: space-around;
-}
-
-#butend a {
-   text-decoration: none;
-   color: black;
-   border: solid black;
-   margin: 1rem;
-   padding: 0.2rem;
-   width: 10rem;
-   background-color: white;
-   text-align: center;
-   border-radius: 1rem 1rem;
-}
 
 #gm {
    background: url(pictures/red-brick-bg.jpg);
