@@ -395,6 +395,12 @@ label {
    #bookcontainer input {
       height: 3rem;
    }
+   #indexhead h1, h2 {
+      font-size: 28px;
+    }
+    #indexcontainer a {
+      font-size: 28px;
+    }
 }
 @media only screen and (min-width: 600px) {
    * {
