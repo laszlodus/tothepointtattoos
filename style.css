@@ -235,9 +235,11 @@ font-size: x-large;
    border-radius: 3rem;
    max-width: 30rem;
 }
-#bookcontainer button {
-  margin: 0.5rem;
-  padding: 0.2rem;
+form button {
+  margin: 2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 10rem;
 }
 form button:hover {
    background-color: black;
@@ -255,6 +257,7 @@ form button:hover {
 #bookcontainer input {
    height: 2rem;
    font-size: large;
+   margin-bottom: 1rem;
 }
 #bookcontainer label, a, button, textarea {
    font-size: large;
