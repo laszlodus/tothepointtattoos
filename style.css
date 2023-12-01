@@ -62,7 +62,11 @@
    color: red;
 }
 /*about*/
-
+#aboutbg {
+   background-image: url(pictures/bggtattos.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
 .profilkep {
    display: flex;
    padding: 2rem;
@@ -99,8 +103,7 @@ figcaption {
    border-radius: 3rem;
    padding: 1rem;
    box-shadow: 0.1rem 0.2rem 0.4rem black;
-   color: white;
-   background-color: black;
+   color: black;
    /* opacity: 0.7;
    filter: brightness(140%); */
    margin: 2rem;
@@ -267,15 +270,21 @@ span {
 }
 
 /*Contact*/
+#contbg {
+   background-image: url(pictures/bggtattos.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+}
 .maps {
    display: flex;
    justify-content: space-around;
    align-items: center;
-   padding: 2rem;
-   background-color: var(--grey);
+   margin :2rem;
 }
 .maps iframe {
    width: 25rem;
+   margin-bottom: 2rem;
    
 }
 .cont {
@@ -285,20 +294,19 @@ span {
 .cont img {
     margin: 1rem;
 }
-label {
-   max-width: 20rem;
-   display: inline-block;
+.cont a {
+   text-decoration: none;
+   color: whitesmoke;
+   border: 1px solid black;
+   padding: 0.2rem;
+   border-radius: 0.5rem;
+   background-color: black;
 }
-.info {
-   background-color: var(--grey);
-   display: flex;
-   flex-direction: column;
-   padding: 2rem;
+.cont a:hover {
+   color: black;
+   background-color: whitesmoke;
 }
-.info p {
-   font-size: small;
-   width: 25rem;
-}
+
 /*pictures pages*/
 
 .image {
