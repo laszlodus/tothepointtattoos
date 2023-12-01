@@ -270,29 +270,36 @@ span {
 }
 
 /*Contact*/
+#contcontainer {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 2rem;
+}
 #contbg {
    background-image: url(pictures/bggtattos.jpg);
    background-size: cover;
    background-repeat: no-repeat;
-   height: 100vh;
 }
 .maps {
    display: flex;
-   justify-content: space-around;
+   flex-direction: column;
    align-items: center;
-   margin :2rem;
 }
 .maps iframe {
    width: 25rem;
    margin-bottom: 2rem;
-   
 }
 .cont {
    display: flex;
    align-items: center;
+   width: 25rem;
+  
 }
 .cont img {
-    margin: 1rem;
+    padding: 0.5rem;
 }
 .cont a {
    text-decoration: none;
@@ -306,6 +313,13 @@ span {
    color: black;
    background-color: whitesmoke;
 }
+#info {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 30vh;
+}
+
 
 /*pictures pages*/
 
@@ -381,9 +395,7 @@ span {
    *{
        font-size: x-small;
    }
-   .maps {
-       flex-direction: column;
-   }
+ 
    .profilkep {
        flex-direction: column;
        align-items: center;    
@@ -423,9 +435,7 @@ span {
        align-items: center;    
    }
    
-   .maps {
-       flex-direction: column;
-   }
+ 
    #indexhead h1, h2 {
       font-size: x-large;
     }
@@ -441,9 +451,7 @@ span {
    * {
        font-size: large;
    }
-   .maps {
-       flex-direction: column;
-   }
+  
    .profilkep {
        flex-direction: row;
    }
@@ -468,9 +476,7 @@ span {
  #indexcontainer a {
    font-size: xx-large;
  }
-.maps {
-   flex-direction: row;
-}
+
 .profilkep {
    flex-direction: row;
  }
@@ -478,7 +484,6 @@ span {
    background-color: white;
    color: black;
 }
-
 }
 @media only screen and (min-width: 1200px) {
    * {
