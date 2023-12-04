@@ -70,11 +70,11 @@
 .profilkep {
    display: flex;
    flex-direction: column;
-   padding: 2rem;
+   margin: 2rem; 
    background-image: url();
    background-repeat: no-repeat;
    background-size: cover;
-   justify-content: space-between;
+   justify-content: space-around;
 }
 
 figure {
@@ -83,9 +83,6 @@ figure {
    justify-content: center;
 }
 figcaption {
-   display: flex;
-   flex-direction: column;
-   justify-content:center;
    color: red;
    font-family: 'Yellowtail', 'cursive';
 }
@@ -96,7 +93,7 @@ figcaption {
   
 }
 .abcontainer img {
-   width: 25rem;
+   width: 20rem;
    height: auto;
    border: 1px solid black;
    border-radius: 2rem;
@@ -106,16 +103,37 @@ figcaption {
 .div1 {
    display: flex;
    align-items: center;
-   width: 40rem;
+   justify-content: center;
+}
+.div2 {
+   display: flex;
    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-around;
+}
+.div2 img {
+   width: 25rem;
+   height: auto;
+   border: 1px solid black;
+   border-radius: 2rem;
+   box-shadow: 0.4rem 0.4rem 0.6rem black;
+   margin: 1rem; 
+   max-width: 100%;
+}
+.div1 p {
+   font-size: large;
+   text-align: justify;
+   width: 35rem;
+   max-width: 100%;
+   height: auto;
    border: 1px solid black;
    border-radius: 3rem;
    box-shadow: 0.1rem 0.2rem 0.4rem black;
    color: black;
-   
-}
-.div1 p {
-   font-size: large;
+   padding: 1rem;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
    }
 
 
@@ -420,9 +438,7 @@ span {
    .nav a {
         font-size: x-large;
     }
-   .div1 {
-       width: 90%;
-   }
+   
    #bookcontainer input {
       height: 3rem;
    }
@@ -441,7 +457,9 @@ span {
    .nav a {
     padding: 1rem;
    }
-   
+   .div1 p {
+      font-size: x-large;
+   }
    #indexhead h1, h2 {
       font-size: x-large;
     }
@@ -457,7 +475,9 @@ span {
    * {
        font-size: large;
    }
-  
+   .div1 p {
+      font-size: x-large;
+   }
    .style1 li {
       height: 8rem;
    }
@@ -480,9 +500,7 @@ span {
    font-size: xx-large;
  }
 
-.profilkep {
-   flex-direction: row;
- }
+
 .form {
    background-color: white;
    color: black;
@@ -504,4 +522,11 @@ span {
     }
    
 }
-
+@media only screen and (min-width: 1400px) {
+.profilkep {
+   flex-direction: row;
+ }
+ .div2 {
+   flex-direction: row;
+ }
+}
