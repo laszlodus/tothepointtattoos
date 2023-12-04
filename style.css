@@ -275,22 +275,36 @@ span {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   justify-content: space-around;
    margin-top: 2rem;
+   justify-content: space-around
+}
+#seccontainer {
+   display: flex;
+   flex-direction: column;
+   margin: 2rem;
+}
+#pic {
+   max-width: 90%;
+   height: auto;
+   border: 1px solid black;
+   border-radius: 2rem;
+   box-shadow: 0.4rem 0.4rem 0.6rem black;
 }
 #contbg {
    background-image: url(pictures/bggtattos.jpg);
    background-size: cover;
    background-repeat: no-repeat;
+  
 }
 .maps {
    display: flex;
    flex-direction: column;
    align-items: center;
+   margin-top: 2rem;
 }
 .maps iframe {
-   width: 25rem;
    margin-bottom: 2rem;
+   width: 25rem;
 }
 .cont {
    display: flex;
@@ -302,22 +316,14 @@ span {
     padding: 0.5rem;
 }
 .cont a {
-   text-decoration: none;
-   color: whitesmoke;
-   border: 1px solid black;
-   padding: 0.2rem;
-   border-radius: 0.5rem;
-   background-color: black;
-}
-.cont a:hover {
-   color: black;
-   background-color: whitesmoke;
+   text-decoration: underline;
+   color: blue;
 }
 #info {
    display: flex;
    flex-direction: column;
    align-items: center;
-   margin-bottom: 30vh;
+   max-width: 100%;
 }
 
 
@@ -400,7 +406,7 @@ span {
        flex-direction: column;
        align-items: center;    
    }
-   .cont a, p, address {
+   .cont p, address {
        font-size: large;
    }
    .nav a {
@@ -484,6 +490,7 @@ span {
    background-color: white;
    color: black;
 }
+
 }
 @media only screen and (min-width: 1200px) {
    * {
@@ -496,5 +503,6 @@ span {
     #indexcontainer a {
       font-size: xxx-large;
     }
+   
 }
 
