@@ -69,6 +69,7 @@
 }
 .profilkep {
    display: flex;
+   flex-direction: column;
    padding: 2rem;
    background-image: url();
    background-repeat: no-repeat;
@@ -83,31 +84,40 @@ figure {
 }
 figcaption {
    display: flex;
+   flex-direction: column;
    justify-content:center;
    color: red;
    font-family: 'Yellowtail', 'cursive';
 }
-.profp {
-   width: 20rem;
+.abcontainer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  
+}
+.abcontainer img {
+   width: 25rem;
+   height: auto;
    border: 1px solid black;
    border-radius: 2rem;
-   box-shadow: 0.2rem 0.2rem 0.3rem black;
-   
+   box-shadow: 0.4rem 0.4rem 0.6rem black;
+   margin: 1rem;
 }
-
 .div1 {
    display: flex;
+   align-items: center;
    width: 40rem;
    flex-direction: column;
    border: 1px solid black;
    border-radius: 3rem;
-   padding: 1rem;
    box-shadow: 0.1rem 0.2rem 0.4rem black;
    color: black;
-   /* opacity: 0.7;
-   filter: brightness(140%); */
-   margin: 2rem;
+   
 }
+.div1 p {
+   font-size: large;
+   }
+
 
 /*tattoo style*/
 
@@ -401,11 +411,6 @@ span {
    *{
        font-size: x-small;
    }
- 
-   .profilkep {
-       flex-direction: column;
-       align-items: center;    
-   }
    .cont p, address {
        font-size: large;
    }
@@ -436,12 +441,7 @@ span {
    .nav a {
     padding: 1rem;
    }
-   .profilkep {
-       flex-direction: column;
-       align-items: center;    
-   }
    
- 
    #indexhead h1, h2 {
       font-size: x-large;
     }
@@ -458,9 +458,6 @@ span {
        font-size: large;
    }
   
-   .profilkep {
-       flex-direction: row;
-   }
    .style1 li {
       height: 8rem;
    }
@@ -490,7 +487,9 @@ span {
    background-color: white;
    color: black;
 }
-
+.abcontainer {
+   flex-direction: column; 
+}
 }
 @media only screen and (min-width: 1200px) {
    * {
