@@ -265,6 +265,7 @@ font-size: x-large;
    border: 1px solid black;
    border-radius: 3rem;
    max-width: 30rem;
+   font-size: large;
 }
 form button {
   margin: 2rem;
@@ -278,7 +279,10 @@ form button:hover {
 }
 #bookcontainer img {
    margin-top: 1rem;
-   width: 20rem;
+   max-width:90%;
+   border: 1px solid black;
+   border-radius: 2rem;
+   box-shadow: 0.4rem 0.4rem 0.6rem black;
 }
 #bookcontainer form {
    display: flex;
