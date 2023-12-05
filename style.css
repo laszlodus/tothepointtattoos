@@ -439,7 +439,8 @@ span {
 #gm {
    background: url(pictures/red-brick-bg.jpg);
    background-size: cover;
-   background-repeat: no-repeat;
+   background-repeat: repeat;
+   height: 100vh;
 }
 #ibg {
    background-image: url(pictures/machine.jpg);
