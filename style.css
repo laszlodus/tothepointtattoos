@@ -196,9 +196,6 @@ figcaption {
 color: red;
 }
 .style1 {
-   /* background-image: url(pictures/bggtattos.jpg);
-   background-position: center;
-   background-size: cover; */
    position: relative;
    z-index: 1;
 }
