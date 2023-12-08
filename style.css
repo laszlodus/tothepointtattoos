@@ -337,6 +337,7 @@ h3 {
 }
 .buttoncontainer button {
    -webkit-appearance: none;
+   appearance: none;
 }
 /*Contact*/
 #contcontainer {
