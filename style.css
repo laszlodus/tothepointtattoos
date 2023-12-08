@@ -335,7 +335,9 @@ h3 {
  color: whitesmoke;
  background-color: black;
 }
-
+.buttoncontainer button {
+   -webkit-appearance: none;
+}
 /*Contact*/
 #contcontainer {
    display: flex;
