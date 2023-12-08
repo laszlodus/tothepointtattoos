@@ -274,10 +274,11 @@ form button {
   padding: 0.3rem 1rem 0.3rem 1rem;
   border-radius: 0.5rem;
   margin: 1rem;
+  -webkit-appearance: none;
+   appearance: none;
 }
 form button:hover {
    background-color: red;
-   color: white;
 }
 #bookcontainer img {
    margin-top: 1rem;
@@ -334,10 +335,6 @@ h3 {
 .buttoncontainer a:hover {
  color: whitesmoke;
  background-color: black;
-}
-.buttoncontainer button {
-   -webkit-appearance: none;
-   appearance: none;
 }
 /*Contact*/
 #contcontainer {
