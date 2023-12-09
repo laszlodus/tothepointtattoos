@@ -471,7 +471,13 @@ h3 {
 #gm {
    background: url(pictures/red-brick-bg.jpg);
    background-size: cover;
-   background-repeat: repeat;
+   background-repeat: no-repeat;
+   
+}
+#gm1 {
+   background: url(pictures/red-brick-bg.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
    height: 100vh;
 }
 #ibg {
