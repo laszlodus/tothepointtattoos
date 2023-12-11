@@ -87,6 +87,7 @@ figure {
 figcaption {
    color: red;
    font-family: 'Yellowtail', 'cursive';
+   font-size: large;
 }
 .abcontainer {
    display: flex;
