@@ -470,14 +470,14 @@ h3 {
 /* extra*/
 #gm {
    background: url(pictures/red-brick-bg.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
+   background-size: contain;
+   background-repeat: repeat;
    
 }
 #gm1 {
    background: url(pictures/red-brick-bg.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
+   background-size: contain;
+   background-repeat: repeat;
    height: 100vh;
 }
 #ibg {
