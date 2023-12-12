@@ -260,7 +260,7 @@ font-size: x-large;
    flex-direction: column;
    align-items: center;
 }
-#bookcontainer p {
+#bookp {
    padding: 1rem;
    margin: 1rem;
    border: 1px solid black;
@@ -273,6 +273,7 @@ form button {
   padding: 0.3rem 1rem 0.3rem 1rem;
   border-radius: 0.5rem;
   margin: 1rem;
+  background-color: whitesmoke;
   -webkit-appearance: none;
    appearance: none;
 }
@@ -296,19 +297,18 @@ form button:hover {
    font-size: large;
    margin-bottom: 1rem;
 }
-#bookcontainer label, a, button, textarea {
+#bookcontainer label, a, button, textarea, span, p {
    font-size: large;
 }
 span {
    color: red;
-   font-size: large;
 }
 #formpart{
    display: flex;
    flex-direction: column;
    align-items: flex-start;
 }
-h3 {
+h3{
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -335,6 +335,15 @@ h3 {
  color: whitesmoke;
  background-color: black;
 }
+label a {
+   color: red;
+}
+
+#checkcontainer {
+   display: flex;
+   justify-content: space-between;
+}
+
 /*Contact*/
 #contcontainer {
    display: flex;

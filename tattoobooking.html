@@ -21,7 +21,7 @@
     <h1 id="booking">Tattoo Booking</h1>
     <div id="bookcontainer">
         <img id="picture" class="picture" src="./pictures/bookings.jpg" alt="booking">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste eum expedita esse deleniti error, exercitationem sint veritatis perferendis necessitatibus ratione fugiat aut molesdi voluptas assumenda commodi in totam.tiae voluptate veniam! Alias sit aliquam blanditiis, quibusdam veritatis facere omnis atque vel voluptatum perferendis quisquam, repudiandae velit reiciendis saepe dignissimos tempore? Eligen
+          <p id="bookp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste eum expedita esse deleniti error, exercitationem sint veritatis perferendis necessitatibus ratione fugiat aut molesdi voluptas assumenda commodi in totam.tiae voluptate veniam! Alias sit aliquam blanditiis, quibusdam veritatis facere omnis atque vel voluptatum perferendis quisquam, repudiandae velit reiciendis saepe dignissimos tempore? Eligen
           </p>  
         <form id="myForm" action="https://formspree.io/f/xgeqynbe" method="POST">
         <label for="firstname" class="required-field"><span>*</span>First Name</label>
@@ -38,9 +38,9 @@
         <textarea name="tattoidea" id="tattoidea" cols="30" rows="10" class="forms" required></textarea>
         <label for="bodypart" class="required-field">Body Part</label>
         <input type="text" name="bodypart" id="bodypart" class="forms">
-        <div>
+        <div id="checkcontainer">
         <input type="checkbox" name="gdpr" id="gdpr" required>
-        <label for="gdpr" class="required-field"><span>*</span>I agree to the processing of my provided data for the purpose of contact. <a target="_blank" href="privacy.html">Privacy Policy</a></label>
+        <label for="gdpr" class="required-field"><p></p><span>*</span>I agree to the processing of my provided data for the purpose of contact.</p><a target="_blank" href="privacy.html">Privacy Policy</a></label> 
         </div>
         <div class="buttoncontainer">
         <button onclick="submitForm()" type="submit">Send</button>
