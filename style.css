@@ -274,6 +274,7 @@ form button {
   border-radius: 0.5rem;
   margin: 1rem;
   background-color: whitesmoke;
+  color: black;
   -webkit-appearance: none;
    appearance: none;
 }
