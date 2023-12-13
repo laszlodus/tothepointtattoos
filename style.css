@@ -298,6 +298,9 @@ form button:hover {
    font-size: large;
    margin-bottom: 1rem;
 }
+#bookcontainer textarea {
+   margin-bottom: 1rem;
+}
 #bookcontainer label, a, button, textarea, span, p {
    font-size: large;
 }
