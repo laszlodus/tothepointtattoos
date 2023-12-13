@@ -606,6 +606,10 @@ label a {
    #contcontainer {
       flex-direction: row;
    }
+   #pic {
+      max-width: 40%;
+   }
+  
    #indexhead h1, h2 {
       font-size: xxx-large;
     }
