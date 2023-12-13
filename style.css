@@ -372,7 +372,7 @@ label a {
 #contbg {
    background-image: url(pictures/bggtattos.jpg);
    background-size: cover;
-   background-repeat: no-repeat;
+   background-repeat: repeat;
   
 }
 .maps {
@@ -603,7 +603,9 @@ label a {
    * {
        font-size: x-large;
    }
-  
+   #contcontainer {
+      flex-direction: row;
+   }
    #indexhead h1, h2 {
       font-size: xxx-large;
     }
