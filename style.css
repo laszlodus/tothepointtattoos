@@ -12,33 +12,51 @@
 
 
 /*nav*/
-.nav {
-  display: flex;
-  justify-content: center;
-  background-color: black;
-  position: sticky;
-  top: 0;
-  z-index: 2;
+.navbar {
+   display: none;
 }
-.nav li {
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+.navbar.show {
+   display: flex;
+   position: fixed;
+   top: 0;
+   right: 0;
+   flex-direction: column;
+   align-items: flex-end;
+   width: 100%;
+   z-index: 99; 
 }
-.nav ul {
-    display: flex;
-    list-style-type: none;
-    background-color: black;
+.navbar ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   background-color: black;
 }
-.nav a {
-    text-decoration: none;
-    color: whitesmoke;
-    font-family: 'Yellowtail', 'cursive';
-    font-size: xx-large;
-    padding: 0;
+
+.navbar li {
+   display: flex;
+   margin-right: 5rem;
+   margin-left: 1rem;
+   
 }
-.nav a:hover {
-    color: red;
+
+.navbar a {
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+.menu-toggle {
+   display: flex;
+   position: absolute;
+   top: 0;
+   right: 0;
+   z-index: 100;
+   font-size: 40px;
+   color: red;
+   cursor: pointer; 
+   margin-right: 2rem;
+   justify-content: center;
 }
 
 /*index menu*/
@@ -239,7 +257,7 @@ h1, h2 {
 display: flex;
 justify-content: center;
 background-color: black;
-padding-right: 1rem;
+padding: 1rem;
 color: red;
 font-family: 'Yellowtail', 'cursive';
 box-shadow: 0 0.1rem 0.1rem red;
@@ -519,17 +537,22 @@ label a {
    *{
        font-size: x-small;
    }
+   .navbar {
+      display: none;
+  }
+  
+  .menu-toggle {
+      display: flex;
+  }
+
    .cont p, address {
        font-size: large;
    }
    .nav a {
     padding: 0.6rem;
+    font-size: x-large;
    }
-   .nav a {
-        font-size: x-large;
-    }
-   
-   #bookcontainer input {
+    #bookcontainer input {
       height: 3rem;
    }
    #indexhead h1, h2 {
@@ -538,12 +561,19 @@ label a {
     #indexcontainer a {
       font-size: xx-large;
     }
+
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
    * {
       font-size: medium;
-      
    }
+   .navbar {
+      display: none;
+  }
+  
+  .menu-toggle {
+      display: flex;
+  }
    .nav a {
     padding: 1rem;
    }
@@ -565,6 +595,14 @@ label a {
    * {
        font-size: large;
    }
+   .navbar {
+      display: none;
+  }
+ 
+  .menu-toggle {
+      display: flex;
+  }
+
    .div1 p {
       font-size: x-large;
    }
@@ -583,6 +621,34 @@ label a {
  * {
    font-size: large;
  }
+ .navbar {
+   display: flex;
+   justify-content: space-around;
+   position: sticky;
+   top: 0;
+   right: 0;
+   align-items: flex-end;
+   background-color: black; 
+   width: 100%;
+   z-index: 99;
+}
+   .navbar ul {
+       display: flex;
+   }
+   
+   .navbar li {
+       display: flex;
+       flex-direction: row;
+       margin-right: 0rem;
+       margin-left: 0rem;
+       margin-right: 1rem;
+       margin-left: 1rem;
+   }
+   
+   .menu-toggle {
+       display: none;
+   } 
+
  #indexhead h1, h2{
    font-size: xx-large;
  }
