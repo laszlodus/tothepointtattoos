@@ -282,9 +282,10 @@ font-size: x-large;
    padding: 1rem;
    margin: 1rem;
    border: 1px solid black;
-   border-radius: 3rem;
-   max-width: 30rem;
+   border-radius: 1rem;
+   max-width: 25rem;
    font-size: large;
+   text-align: center;
 }
 form button {
   margin: 2rem;
