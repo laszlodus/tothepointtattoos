@@ -53,10 +53,13 @@
    right: 0;
    z-index: 100;
    font-size: 40px;
-   color: red;
+   color: rgb(51, 50, 50);
+   text-shadow: 0rem -0.1rem 0.3rem white;
    cursor: pointer; 
    margin-right: 2rem;
    justify-content: center;
+   -webkit-appearance: none;
+   appearance: none;
 }
 
 /*index menu*/
