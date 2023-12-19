@@ -542,14 +542,6 @@ label a {
    *{
        font-size: x-small;
    }
-   .navbar {
-      display: none;
-  }
-  
-  .menu-toggle {
-      display: flex;
-  }
-
    .cont p, address {
        font-size: large;
    }
@@ -572,13 +564,6 @@ label a {
    * {
       font-size: medium;
    }
-   .navbar {
-      display: none;
-  }
-  
-  .menu-toggle {
-      display: flex;
-  }
    .nav a {
     padding: 1rem;
    }
@@ -600,13 +585,6 @@ label a {
    * {
        font-size: large;
    }
-   .navbar {
-      display: none;
-  }
- 
-  .menu-toggle {
-      display: flex;
-  }
 
    .div1 p {
       font-size: x-large;
