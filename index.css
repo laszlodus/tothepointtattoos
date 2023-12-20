@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#indexcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 100vh;
+ }
+ #indexcontainer li {
+    padding: 0.5rem;
+    list-style-type: none;
+ }
+ #indexcontainer a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Yellowtail', 'cursive';
+    font-size: x-large;
+    text-shadow: 0rem 0.2rem 0.3rem black;
+ }
+ #indexcontainer a:hover{
+    color: red;
+ }
+ nav {
+    display: flex;
+    text-align: center;
+ }
+ nav ul{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+ }
+ #ibg {
+    background-image: url(pictures/machine.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+ }
+ h1, h2 {
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-family: 'Yellowtail', 'cursive';
+    font-size: x-large;
+    text-shadow: 0rem 0.4rem 1rem black;
+    font-weight: 300;
+    }
+
+    @media only screen and (max-width: 600px) {
+        *{
+            font-size: x-small;
+        }
+        #indexhead h1, h2 {
+           font-size: xx-large;
+         }
+         #indexcontainer a {
+           font-size: xx-large;
+         }
+     
+     }
+     @media only screen and (min-width: 601px) {
+        * {
+           font-size: medium;
+        }
+        #indexhead h1, h2 {
+           font-size: x-large;
+         }
+         #indexcontainer a {
+           font-size: x-large;
+         }
+         #indexcontainer li {
+           padding: 0.2rem;
+         }
+       
+     }
+     @media only screen and (min-width: 768px) {
+        * {
+            font-size: large;
+        }
+    #indexhead h1, h2{
+           font-size: xx-large;
+         }
+         #indexcontainer a {
+           font-size: xx-large;
+         }
+       
+     }
+     @media only screen and (min-width: 992px) {
+      * {
+        font-size: large;
+      } 
+      #indexhead h1, h2{
+        font-size: xx-large;
+      }
+      #indexcontainer a {
+        font-size: xx-large;
+      }
+     }
+     @media only screen and (min-width: 1200px) {
+        * {
+            font-size: x-large;
+        }
+       
+        #indexhead h1, h2 {
+           font-size: xxx-large;
+         }
+         #indexcontainer a {
+           font-size: xxx-large;
+         }
+        
+     }
