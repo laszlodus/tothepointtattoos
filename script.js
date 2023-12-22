@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('myForm');
     const sendButton = document.querySelector('button[type="submit"]');
     const firstNameInput = document.getElementById('firstname');
@@ -30,11 +30,12 @@ document.addEventListener('DOMContentLoaded', function () {
     form.addEventListener('input', updateButtonState);
 });
 
-
 function submitForm() {
-  setTimeout(function() {
-   document.getElementById("myForm").reset();
-  }, 1000);
-}
-
+    // Itt hozzáadhatod az űrlap elküldési logikáját
+    // Simulating a form submission delay (1 second)
+    setTimeout(function() {
+      // Clear the form after 1 second
+      document.getElementById("myForm").reset();
+    }, 1000);
+  }
 
