@@ -30,12 +30,21 @@
     form.addEventListener('input', updateButtonState);
 });
 
+// function submitForm() {
+//     // Itt hozzáadhatod az űrlap elküldési logikáját
+//     // Simulating a form submission delay (1 second)
+//     setTimeout(function() {
+//       // Clear the form after 1 second
+//       document.getElementById("myForm").reset();
+//     }, 1000);
+//   }
+
+// Az űrlap elküldése gombra kattintáskor hívódik meg
 function submitForm() {
-    // Itt hozzáadhatod az űrlap elküldési logikáját
-    // Simulating a form submission delay (1 second)
-    setTimeout(function() {
-      // Clear the form after 1 second
-      document.getElementById("myForm").reset();
-    }, 1000);
-  }
+    // Űrlap elküldése
+    document.getElementById("myForm").submit();
+    
+    // Törölje a kitöltött mezőket
+    document.getElementById("myForm").reset();
+}
 
