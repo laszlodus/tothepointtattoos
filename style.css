@@ -279,7 +279,8 @@ form button {
    appearance: none;
 }
 form button:hover {
-   background-color: red;
+   background-color: black;
+   color: white;
 }
 #bookcontainer img {
    margin-top: 1rem;
