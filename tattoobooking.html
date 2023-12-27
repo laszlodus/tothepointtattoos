@@ -28,13 +28,13 @@
           </p>  
         <form id="myForm" action="https://formspree.io/f/xgeqynbe" method="POST">
         <label for="firstname" class="required-field"><span>*</span>First Name</label>
-        <input type="text" name="firstname" class="forms" id="firstname" required>
+        <input type="text" name="firstname" class="forms" id="firstname" placeholder="This field is required." required>
         <label for="lastname" class="required-field"><span>*</span>Last Name</label>
-        <input type="text" name="lastname" class="forms" id="lastname" required>
+        <input type="text" name="lastname" class="forms" id="lastname" placeholder="This field is required." required>
         <label for="email" class="required-field"><span>*</span>Email</label>
-        <input type="email" name="Email" id="email" class="forms" required>
+        <input type="email" name="Email" id="email" class="forms" placeholder="This field is required." required>
         <label for="phonenumber" class="required-field"><span>*</span>Phone Number</label>
-        <input type="text" name="phone" id="phonenumber" maxlength="11" class="forms" required>
+        <input type="text" name="phone" id="phonenumber" maxlength="11" class="forms" placeholder="This field is required." required>
         <label for="age" class="required-field">Age</label>
         <input type="text" name="age" id="age" maxlength="2" class="forms">
         <label for="tattoidea" class="required-field">Tatto Idea</label>
@@ -42,8 +42,8 @@
         <label for="bodypart" class="required-field">Body Part</label>
         <input type="text" name="bodypart" id="bodypart" class="forms">
         <div id="checkcontainer">
-        <input type="checkbox" name="gdpr" id="gdpr" required>
-        <label for="gdpr" class="required-field"><p><span>*</span>I agree to processing of my provided data for the purpose of contact.</p><a target="_blank" href="privacy.html">Privacy Policy</a></label> 
+           <label for="gdpr" class="required-field"><p><span>*</span>I agree to <a target="_blank" href="privacy.html">Privacy Policy.</a></p></label> 
+           <input type="checkbox" name="gdpr" id="gdpr" required>
         </div>
         <div class="buttoncontainer">
         <button onclick="submitForm()" type="submit">Send</button>

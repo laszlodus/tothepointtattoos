@@ -345,8 +345,10 @@ label a {
 
 #checkcontainer {
    display: flex;
-   justify-content: space-between;
+   flex-direction: column;
+   align-items: flex-start;
 }
+
 
 /*Contact*/
 #contcontainer {

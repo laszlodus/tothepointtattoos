@@ -17,11 +17,11 @@
         );
 
         if (sendButton.disabled) {
-            sendButton.style.backgroundColor = 'gray'; // Szürke háttérszín
-            sendButton.innerHTML = '<i class="fas fa-times"></i> Disabled'; // Disabled ikon
+            sendButton.style.backgroundColor = 'red'; 
+            sendButton.innerHTML = '<i class="fas fa-times"></i> Please fill all required fields!'; 
         } else {
-            sendButton.style.backgroundColor = ''; // Alaphelyzetű háttérszín
-            sendButton.innerHTML = 'Send'; // Alaphelyzetű szöveg
+            sendButton.style.backgroundColor = ''; 
+            sendButton.innerHTML = 'Send'; 
         }
     }
 
