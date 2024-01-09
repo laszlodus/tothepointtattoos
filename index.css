@@ -71,7 +71,9 @@
     color: white;
     font-family:Arial, Helvetica, 'sans-s';
     font-size: large;
-    text-shadow: 0rem 0.4rem 0.6rem black;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 0.3rem;
  }
  #secondcontainer a:hover{
     color: red;
@@ -143,10 +145,10 @@ footer p {
            font-size: medium;
         }
         #indexhead h1, h2 {
-           font-size: x-large;
+           font-size: xx-large;
          }
          #secondcontainer a {
-           font-size: x-large;
+           font-size: large;
          }
          .nav a {
             padding: 1rem;
@@ -158,12 +160,13 @@ footer p {
             font-size: large;
         }
     #indexhead h1, h2{
-           font-size: xx-large;
+           font-size: xxx-large;
          }
          #secondcontainer a {
            font-size: xx-large;
          }
-       
+      footer p{
+      font-size: xx-large;      } 
      }
      @media only screen and (min-width: 992px) {
       * {
