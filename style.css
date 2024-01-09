@@ -10,7 +10,6 @@
    font-size: xx-large;
 }
 
-
 /*nav*/
 .navbar {
    display: none;
@@ -42,7 +41,7 @@
 .navbar a {
    color: white;
    text-align: center;
-   padding: 14px 16px;
+   padding: 10px 16px;
    text-decoration: none;
 }
 
@@ -246,6 +245,17 @@ box-shadow: 0 0.1rem 0.1rem red;
 font-size: xx-large;
 font-weight: lighter;
 }
+
+/*Laser Treatments*/
+  #container {
+   display: flex;
+   flex-direction: column;
+   margin: 2rem;
+  }
+  #container ul {
+   list-style-type: none;
+  }
+  
 
 /*booking*/
 
