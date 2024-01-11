@@ -427,9 +427,7 @@ label a {
 
 /*pictures pages*/
 
-.image {
-   box-shadow: 1rem 1rem 1rem black;
-}
+
 .images {
    display: flex;
    flex-wrap: wrap;
@@ -473,6 +471,7 @@ label a {
    max-width: 100%;
    box-shadow: 0.8rem 0.8rem 1rem var(--shadow);
    border: 0.2rem solid white;
+   box-shadow: 0.4rem 0.4rem 0.6rem black;
    cursor: pointer;
 }
 .lightbox-content img {
@@ -502,17 +501,12 @@ label a {
    color: red;
 }
 /* extra*/
-#gm {
-   background: url(pictures/red-brick-bg.jpg);
-   background-size: contain;
-   background-repeat: repeat;
-   
-}
+
 #gm1 {
-   background: url(pictures/red-brick-bg.jpg);
-   background-size: contain;
-   background-repeat: repeat;
-   height: 100vh;
+   background: url(pictures/grey_wall.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
 }
 
 /* ------------------*/
@@ -547,6 +541,7 @@ label a {
     #bookcontainer input {
       height: 3rem;
    }
+ 
 }
 @media only screen and (min-width: 601px) {
    * {
@@ -558,6 +553,7 @@ label a {
    .div1 p {
       font-size: x-large;
    }
+   
 }
 @media only screen and (min-width: 768px) {
    * {
