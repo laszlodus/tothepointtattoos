@@ -370,7 +370,8 @@ label a {
 
 
 /*Contact*/
-#contcontainer {
+
+#seccontainer {
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -378,22 +379,12 @@ label a {
    margin-top: 2rem;
    justify-content: space-around
 }
-#seccontainer {
-   display: flex;
-   flex-direction: column;
-   margin: 2rem;
-}
-#pic {
-   max-width: 90%;
-   height: auto;
-   border: 1px solid black;
-   border-radius: 2rem;
-   box-shadow: 0.4rem 0.4rem 0.6rem black;
-}
+
 #contbg {
-   background-image: url(pictures/bggtattos.jpg);
+   background-image: url(pictures/salon_pictures/109956528_3167831519920422_3138118101863540450_n.jpg);
    background-size: cover;
-   background-repeat: repeat;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
   
 }
 .maps {
@@ -414,10 +405,20 @@ label a {
 }
 .cont img {
     padding: 0.5rem;
+    background-color: white;
 }
 .cont a {
    text-decoration: underline;
    color: blue;
+   font-weight: bold;
+   text-shadow: 1rem 1rem 2rem black;
+   background-color: white;
+}
+.cont address, p {
+   color: black;
+   font-weight: bold;
+   text-shadow: 1rem 1rem 2rem black;
+   background-color: white;
 }
 #info {
    display: flex;
@@ -425,6 +426,7 @@ label a {
    align-items: center;
    max-width: 100%;
 }
+
 
 
 /*pictures pages*/
@@ -611,6 +613,12 @@ label a {
 }
 .abcontainer {
    flex-direction: column; 
+}
+#seccontainer {
+   flex-direction: row;
+}
+.cont a, address, p {
+   font-size: x-large;
 }
 }
 @media only screen and (min-width: 1200px) {
