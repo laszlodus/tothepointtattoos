@@ -430,13 +430,11 @@ label a {
 .cont address {
    color: black;
    font-weight: bold;
-   text-shadow: 1rem 1rem 2rem black;
    background-color: white;
 }
 .cont p {
    color: black;
    font-weight: bold;
-   text-shadow: 1rem 1rem 2rem black;
    background-color: white;
 }
 #info {
