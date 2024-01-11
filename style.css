@@ -66,6 +66,7 @@
    background-image: url(pictures/bggtattos.jpg);
    background-size: cover;
    background-repeat: no-repeat;
+   background-attachment: fixed;
 }
 .profilkep {
    display: flex;
@@ -267,7 +268,8 @@ font-weight: lighter;
 #bookbg {
    background-image: url(pictures/brick.jpg);
    background-size: cover;
-   background-repeat: repeat;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
    
 }
 #bookcontainer {
@@ -508,6 +510,8 @@ label a {
    background-repeat: no-repeat;
    background-attachment: fixed;
 }
+
+
 
 /* ------------------*/
 /*video*/
