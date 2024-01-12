@@ -413,9 +413,7 @@ label a {
 }
 .cont {
    display: flex;
-   align-items: center;
-   width: 25rem;
-  
+   align-items: center;  
 }
 .cont img {
     padding: 0.5rem;
@@ -441,13 +439,16 @@ label a {
 #info {
    display: flex;
    flex-direction: column;
-   align-items: center;
+   align-items: start;
    max-width: 100%;
 }
 #opentimes {
    color: black;
-   background-color: white;
-   
+   background-color: white;  
+   margin: 2rem;
+}
+#opentimes h3 {
+   font-size: x-large;
 }
 
 
@@ -566,7 +567,9 @@ label a {
     #bookcontainer input {
       height: 3rem;
    }
- 
+   #opentimes h3 {
+      font-size: large;
+   }
 }
 @media only screen and (min-width: 601px) {
    * {
@@ -578,7 +581,6 @@ label a {
    .div1 p {
       font-size: x-large;
    }
-   
 }
 @media only screen and (min-width: 768px) {
    * {
@@ -633,9 +635,7 @@ label a {
 .abcontainer {
    flex-direction: column; 
 }
-#seccontainer {
-   flex-direction: row;
-}
+
 .cont a, address, p {
    font-size: x-large;
 }
@@ -656,6 +656,9 @@ label a {
    flex-direction: row;
  }
  .div2 {
+   flex-direction: row;
+ }
+ #seccontainer {
    flex-direction: row;
  }
 }
