@@ -274,7 +274,9 @@ font-weight: lighter;
    margin: 2rem;
    font-size: x-large;
   }
-
+  #container span {
+   color: red;
+  }
 
 /*booking*/
 
