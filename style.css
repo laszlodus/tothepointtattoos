@@ -7,8 +7,12 @@
    padding: 0;
    box-sizing: border-box;
    font-family:Arial, Helvetica, 'sans-s';
-   font-size: xx-large;
+   font-size: large;
 }
+* label, a, button, textarea, span, p {
+   font-size: large;
+}
+
 
 /*nav*/
 .navbar {
@@ -278,37 +282,15 @@ font-weight: lighter;
    background-image: url(pictures/brick.jpg);
    background-size: cover;
    background-repeat: no-repeat;
-   background-attachment: fixed;
-   
+   background-attachment: fixed;  
 }
 #bookcontainer {
    display: flex;
    flex-direction: column;
    align-items: center;
+   justify-content: space-between;
 }
-#bookp {
-   padding: 1rem;
-   margin: 1rem;
-   border: 1px solid black;
-   border-radius: 1rem;
-   max-width: 25rem;
-   font-size: large;
-   text-align: center;
-}
-form button {
-  margin: 2rem;
-  padding: 0.3rem 1rem 0.3rem 1rem;
-  border-radius: 0.5rem;
-  margin: 1rem;
-  background-color: whitesmoke;
-  color: black;
-  -webkit-appearance: none;
-   appearance: none;
-}
-form button:hover {
-   background-color: black;
-   color: white;
-}
+
 #bookcontainer img {
    margin: 3rem;
    max-width:90%;
@@ -316,65 +298,9 @@ form button:hover {
    border-radius: 2rem;
    box-shadow: 0.4rem 0.4rem 0.6rem black;
 }
-#bookcontainer form {
-   display: flex;
-   flex-direction: column;
-   width: 25rem;
-}
-#bookcontainer input {
-   height: 2rem;
-   font-size: large;
-   margin-bottom: 1rem;
-}
-#bookcontainer textarea {
-   margin-bottom: 1rem;
-}
-#bookcontainer label, a, button, textarea, span, p {
-   font-size: large;
-}
-span {
-   color: red;
-}
-#formpart{
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-}
 #bookcontainer h3{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin: 2rem;
-   font-size: xx-large;
-   text-align: center;
-   font-family: 'Yellowtail', 'cursive';
-}
-.buttoncontainer {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-.buttoncontainer a {
-   text-decoration: none;
-   padding: 0.5rem;
-   border: 1px solid black;
-   border-radius: 1rem;
-   color: black;
-   background-color: whitesmoke;
-   margin-bottom: 2rem;
-}
-.buttoncontainer a:hover {
- color: whitesmoke;
- background-color: black;
-}
-label a {
-   color: red;
-}
-
-#checkcontainer {
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
+font-size: xx-large;
+margin: 2rem;
 }
 .divbook {
    display: flex;
@@ -567,7 +493,7 @@ label a {
     #bookcontainer input {
       height: 3rem;
    }
-   #opentimes h3 {
+   #opentimes h3, h4 {
       font-size: large;
    }
 }
