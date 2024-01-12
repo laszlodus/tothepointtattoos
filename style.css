@@ -298,6 +298,10 @@ font-weight: lighter;
    border-radius: 2rem;
    box-shadow: 0.4rem 0.4rem 0.6rem black;
 }
+#bookcontainer a {
+   color: red;
+   font-size: large;
+}
 #bookcontainer h3{
 font-size: xx-large;
 margin: 2rem;
@@ -490,9 +494,6 @@ margin: 2rem;
     padding: 0.6rem;
     font-size: x-large;
    }
-    #bookcontainer input {
-      height: 3rem;
-   }
    #opentimes h3, h4 {
       font-size: large;
    }
@@ -507,6 +508,7 @@ margin: 2rem;
    .div1 p {
       font-size: x-large;
    }
+  
 }
 @media only screen and (min-width: 768px) {
    * {
@@ -554,15 +556,15 @@ margin: 2rem;
 .navbar a:hover {
    color: red;
 }
-.form {
-   background-color: white;
-   color: black;
-}
+
 .abcontainer {
    flex-direction: column; 
 }
 
 .cont a, address, p {
+   font-size: x-large;
+}
+#bookcontainer a {
    font-size: x-large;
 }
 }
