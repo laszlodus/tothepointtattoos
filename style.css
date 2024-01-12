@@ -444,7 +444,11 @@ label a {
    align-items: center;
    max-width: 100%;
 }
-
+#opentimes {
+   color: black;
+   background-color: white;
+   
+}
 
 
 /*pictures pages*/
