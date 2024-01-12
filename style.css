@@ -275,6 +275,8 @@ font-weight: lighter;
   }
   #container span {
    color: red;
+   -webkit-appearance: none;
+   appearance: none;
   }
 
 /*booking*/
