@@ -278,7 +278,9 @@ font-weight: lighter;
   }
 
 /*booking*/
-
+#opentimes1 {
+ margin: 2rem;
+}
 #bookbg {
    background-image: url(pictures/brick.jpg);
    background-size: cover;
@@ -374,7 +376,7 @@ margin: 2rem;
 }
 #opentimes {
    color: black;
-   background-color: white;  
+   background-color: white;
    margin: 2rem;
 }
 #opentimes h3 {
