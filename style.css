@@ -294,20 +294,21 @@ font-weight: lighter;
    justify-content: space-between;
 }
 
-#bookcontainer img {
+.divbook img {
    margin: 3rem;
    max-width:90%;
    border: 1px solid black;
    border-radius: 2rem;
    box-shadow: 0.4rem 0.4rem 0.6rem black;
 }
-#bookcontainer a {
+.ppolicy  {
    color: red;
    font-size: large;
 }
 #bookcontainer h3{
 font-size: xx-large;
 margin: 2rem;
+text-align: center;
 }
 .divbook {
    display: flex;
@@ -315,7 +316,24 @@ margin: 2rem;
    align-items: center;
    justify-content: center;
 }
-
+.contLink {
+   display: flex;
+   align-items: center;
+   margin-top: 1rem;
+}
+.contLink img {
+   border: solid 1px black;
+   background-color: rgb(85, 156, 210);
+   border-radius: 1rem;
+   margin-right: 1rem;
+}
+.contLink a {
+   color: rgb(20, 121, 199);
+}
+#callus{
+   color: red;
+   font-weight: bold;
+}
 /*Contact*/
 
 #seccontainer {
