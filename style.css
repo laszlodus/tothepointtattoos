@@ -198,6 +198,11 @@ figcaption {
    background-position: center;
    background-size: cover;
 }
+#japan {
+   background: url(pictures/japanes.jpg);
+   background-position: center;
+   background-size: cover;
+}
 .colorc:hover {
 color: red;
 }
