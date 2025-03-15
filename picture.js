@@ -1,23 +1,37 @@
-const pictures = document.querySelectorAll('.image img'); //select of pictures
 
-// Lightbox and close
-const lightbox = document.getElementById('lightbox');
-const lightboxContent = document.getElementById('lightbox-content');
-const close = document.getElementById('close');
+const galleryItems = document.querySelectorAll(".small-image");
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+const closeBtn = document.querySelector(".close");
+const prevBtn = document.getElementById("prev");
+const nextBtn = document.getElementById("next");
 
-pictures.forEach(img => {
-    img.addEventListener('click', () => {
-        lightbox.style.display = 'block';
-        lightboxContent.src = img.src;
-    });
+let currentIndex = 0;
+
+function showLightbox(index) {
+  currentIndex = index;
+  lightboxImg.src = galleryItems[currentIndex].src;
+  lightbox.style.display = "flex";
+}
+
+galleryItems.forEach((item, index) => {
+  item.addEventListener("click", () => showLightbox(index));
 });
 
-close.addEventListener('click', () => {
-    lightbox.style.display = 'none';
+closeBtn.addEventListener("click", () => {
+  lightbox.style.display = "none";
 });
 
-lightbox.addEventListener('click', (event) => {
-    if (event.target === lightbox) {
-        lightbox.style.display = 'none';
-    }
+prevBtn.addEventListener("click", () => {
+  currentIndex = (currentIndex - 1 + galleryItems.length) % galleryItems.length;
+  lightboxImg.src = galleryItems[currentIndex].src;
+});
+
+nextBtn.addEventListener("click", () => {
+  currentIndex = (currentIndex + 1) % galleryItems.length;
+  lightboxImg.src = galleryItems[currentIndex].src;
+});
+
+lightbox.addEventListener("click", (e) => {
+  if (e.target === lightbox) lightbox.style.display = "none";
 });
