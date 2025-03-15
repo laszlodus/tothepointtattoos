@@ -1,0 +1,17 @@
+{
+  "name": "tothepoint-tattoo",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "svgo": "^3.3.2"
+  }
+}
