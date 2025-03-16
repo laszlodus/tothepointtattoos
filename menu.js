@@ -1,7 +1,11 @@
-document.addEventListener("DOMContentLoaded", function () {
+// MAin menu
+
+export function NavMenu() {
     const toggleButton = document.querySelector('.menu-toggle');
     const navbar = document.querySelector('.navbar');
     const navLinks = document.querySelectorAll('.navbar a');
+
+    if (!toggleButton || !navbar) return; // Ha nincs meg az elem, ne fusson tovább
 
     toggleButton.addEventListener('click', function () {
         navbar.classList.toggle('show');
@@ -19,5 +23,5 @@ document.addEventListener("DOMContentLoaded", function () {
             toggleButton.innerHTML = '&#9776;'; 
         });
     });
-});
+}
 

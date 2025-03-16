@@ -16,6 +16,7 @@
     --white: rgb(255, 246, 246);
     --black: #000;
     --navbar-height: 0px;
+    --h1-height: 60px;
     --lightgray: rgba(225, 223, 223, 0.16);
 }
 
@@ -45,6 +46,7 @@ h1 {
    font-weight: lighter;
    position: sticky;
    padding: 1rem;
+   height: var(--h1-height);
    }
    
 /* --------------------------------------------------------------------------------------------------- */
@@ -97,7 +99,7 @@ h1 {
 /* Side menu style */
 .side-menu {
    position: fixed;
-   top: 15%;
+   top: calc(var(--navbar-height) + var(--h1-height));
    right: 0;
    z-index: 200;
    
@@ -108,7 +110,7 @@ h1 {
    background-color: rgba(73, 69, 69, 0.196);
    color: var(--red);
    border: none;
-   padding: 0.5rem 1rem;
+   padding: 0.3rem 1rem;
    font-size: 18px;
    cursor: pointer;
 }
@@ -127,6 +129,10 @@ h1 {
    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
+.submenu.open {
+   display: flex;
+}
+
 
 .submenu a {
    color: white;
@@ -135,10 +141,6 @@ h1 {
    display: block;
 }
 
-
-.side-menu:hover .submenu {
-   display: flex;
-}
 
 /* ----------------------------------------------------------------------- */
 /* FOOTER */
@@ -231,11 +233,11 @@ h1 {
 
 .menu-toggle {
    display: flex;
-   position: absolute;
+   position: fixed;
    top: 0;
    right: 0;
    z-index: 100;
-   font-size: 44px;
+   font-size: 36px;
    color: rgb(51, 50, 50);
    text-shadow: 0rem -0.1rem 0.2rem var(--white);
    cursor: pointer; 
@@ -365,9 +367,6 @@ main {
    color: var(--white);
 }
 
-.page-button:hover {
-   color: var(--red);
-}
 
 .about-container {
    margin: 3rem auto;
