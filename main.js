@@ -7,11 +7,15 @@ import { TypeRunningText } from "./index.js";
 
 
 document.addEventListener("DOMContentLoaded", () => {
+    NavMenu(); 
+
+    if (document.getElementById("cookieConsentPopup")) {
+        CookieConsent();
+    }
+
     if (document.querySelector(".side-menu")) {
         SideMenu();
     }
-
-    NavMenu(); 
 
     if (document.getElementById("typing")) {
         TypeText();
