@@ -793,8 +793,8 @@ iframe {
  }
  .close {
    position: absolute;
-   top: 20px;
-   right: 30px;
+   top: 20%;
+   right: 10%;
    font-size: 30px;
    color: var(--white);
    cursor: pointer;
@@ -808,8 +808,8 @@ iframe {
    color: var(--white);
    cursor: pointer;
  }
- #prev { left: 20px; }
- #next { right: 20px; }
+ #prev { left: 10%; }
+ #next { right: 10%; }
 
 /* ------------------------------------------------------------------------------------*/
 
