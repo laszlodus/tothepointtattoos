@@ -12,6 +12,7 @@
 
 :root {
     --grey:  rgb(228, 228, 224);
+    --darkGrey: #333;
     --red: rgb(246, 5, 5);
     --white: rgb(255, 246, 246);
     --black: #000;
@@ -110,8 +111,8 @@ h1 {
    background-color: rgba(73, 69, 69, 0.196);
    color: var(--red);
    border: none;
-   padding: 0.3rem 1rem;
-   font-size: 18px;
+   padding: 0.1rem;
+   font-size: 36px;
    cursor: pointer;
 }
 
@@ -122,7 +123,7 @@ h1 {
    position: absolute;
    top: 0;
    right: 100%; 
-   background-color: var(--black);
+   background-color: var(--darkGrey);
    display: none;
    flex-direction: column;
    min-width: 150px;
@@ -238,10 +239,11 @@ h1 {
    right: 0;
    z-index: 100;
    font-size: 36px;
+   background-color: rgba(73, 69, 69, 0.196);
+   padding: 0.1rem;
    color: rgb(51, 50, 50);
    text-shadow: 0rem -0.1rem 0.2rem var(--white);
    cursor: pointer; 
-   margin-right: 0.5rem;
    justify-content: center;
    -webkit-appearance: none;
    appearance: none;
@@ -795,8 +797,8 @@ iframe {
    position: absolute;
    top: 20%;
    right: 10%;
-   font-size: 30px;
-   color: var(--white);
+   font-size: 44px;
+   color: var(--red);
    cursor: pointer;
  }
  .nav-btn {
@@ -805,7 +807,7 @@ iframe {
    background: none;
    border: none;
    font-size: 40px;
-   color: var(--white);
+   color: var(--red);
    cursor: pointer;
  }
  #prev { left: 10%; }
