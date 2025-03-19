@@ -5,7 +5,7 @@ export function NavMenu() {
     const navbar = document.querySelector('.navbar');
     const navLinks = document.querySelectorAll('.navbar a');
 
-    if (!toggleButton || !navbar) return; // Ha nincs meg az elem, ne fusson tovább
+    if (!toggleButton || !navbar) return; 
 
     toggleButton.addEventListener('click', function () {
         navbar.classList.toggle('show');
