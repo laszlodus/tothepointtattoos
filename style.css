@@ -16,7 +16,7 @@
     --red: rgb(246, 5, 5);
     --white: rgb(255, 246, 246);
     --black: #000;
-    --navbar-height: 0px;
+    --navbar-height: 0;
     --h1-height: 3.75rem;
     --lightgray: rgba(225, 223, 223, 0.16);
 }
@@ -40,13 +40,13 @@ html {
 h1 {
    display: flex;
    justify-content: center;
+   align-items: center;
    background-color: var(--black);
    color: var(--red);
    font-family: 'Yellowtail', 'cursive';
    font-size: 30px;
    font-weight: lighter;
    position: sticky;
-   padding: 1rem;
    height: var(--h1-height);
    }
    
@@ -876,16 +876,16 @@ video {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 600px) {
+/* 576px */
+@media only screen and (max-width: 36em) {
 
    .nav a {
     padding: 0.6rem;
    }
-   
-
 }
 
-@media only screen and (min-width: 601px) {
+/* 577px */
+@media only screen and (min-width: 37em) {
 
 /* Home */
 .heroIndex p, blockquote {
@@ -913,8 +913,8 @@ video {
 
 }
   
-
-@media only screen and (min-width: 768px) {
+/* 768px */
+@media only screen and (min-width: 48em) {
    
    /* home */
 
@@ -943,7 +943,9 @@ video {
 }
   
 }
-@media only screen and (min-width: 992px) {
+
+/* 992px */
+@media only screen and (min-width: 62em) {
 
  .navbar {
    display: flex;
@@ -1052,10 +1054,10 @@ video {
 .tattoo-picture-grid_container {
    grid-template-columns: repeat(3, 1fr);
 }
-
 }
 
-@media only screen and (min-width: 1200px) {
+/* 1200px */
+@media only screen and (min-width: 75em) {
 
 /* FOOTERS */
 
@@ -1071,7 +1073,8 @@ video {
 
 }
 
-@media only screen and (min-width: 1400px) {
+/* 1400px */
+@media only screen and (min-width: 87em) {
 
 
 /* home */
