@@ -16,3 +16,8 @@ Other: Git version control
 Live Demo & Links
 🌐 Website: https://tothepointtattoos.com/
 📂 GitHub Repo: https://github.com/laszlodus/tothepointtattoos/
+
+## ⚠️ Note
+
+This project is my own work and has been published for portfolio purposes only. Copying, using, or redistributing it without my permission is not allowed.
+
